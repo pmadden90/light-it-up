@@ -178,6 +178,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead .intro-text {
@@ -255,6 +256,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-item img {
     height: 30vh;
+    width: 25vw;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -491,6 +493,11 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+    height: 100%;
 }
 
 @media (min-width: 768px) {
